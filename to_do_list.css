@@ -1,0 +1,158 @@
+body{
+    background-color:#F0ECE3;
+    margin: 0px;
+}
+
+h1{
+    /*border: 0px;*/
+    margin: 0px;
+    text-align:left;
+    padding: 15px 10px 15px 30px ;
+    display: inline-block;
+}
+
+#top-nav{
+    margin: 0px;
+    width: 100vw;
+    height: 80px;
+    background-color: #C7B198;
+    display: flex;
+    justify-content: space-between;
+}
+
+p{
+    margin-top: 28px;
+    margin-right: 8px;
+}
+#logo-container{
+    padding-right: 100px;
+    text-align: center;
+    padding-top: 15px;
+}
+
+header > section{
+    top: 20px;
+    margin-left:25%;
+    width: 50%;
+    min-height: 100vh;
+    box-sizing: border-box;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+}
+
+button {
+    font-size: 24px;
+    margin-top: 24px;
+    margin-right: 36px;
+    padding: 12px 24px;
+}
+
+#todo-list {
+    width: 50%;
+    max-width: 600px;
+    font-size: 24px;
+    margin: 0 auto;
+    padding-top: 32px;
+    text-align: left;
+    list-style: none;
+    background-color: #ffffff;
+}
+
+#todo-list > li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 16px 32px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    background-color: #DFD3C3;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px #F0F5F9;
+}
+
+#todo-list > li > i{
+    cursor: pointer;
+}
+
+#input-box{
+    font-size: 24px;
+    padding: 12px 24px;
+    margin-right: 16px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    outline: none;
+    margin-top: 32px;
+    background-color: #788e98;
+    color: #F0F5F9;
+}
+
+#input-box::placeholder{
+    color: #F0F5F9;;
+}
+
+#add-item{
+    border-radius:8px;
+    color: #788e98;
+    border-color: #788e98;
+}
+
+#add-item:hover{
+    color: #F0F5F9;
+    border-color: #F0F5F9;
+    background-color: #788e98;
+    cursor: pointer;
+}
+
+.close{
+    width: 20px;
+    height:20px;
+}
+
+.close:hover{
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+    h1{
+        text-align: center;
+        padding-bottom: 0px;
+    }
+
+    #top-nav{
+        margin: 0px;
+        width: 100vw;
+        height: 150px;
+        display: inline-block;
+
+    }
+
+    #connect{
+        margin-top: 0px;
+        margin-left: 36px;
+        justify-content: center;
+        
+    }
+
+    header > section{
+        width: 100vw;
+        min-height: 100vh;
+        box-sizing: border-box;
+        overflow: hidden;
+        margin: 0px;
+        text-align: center;
+    }
+
+    #todo-list {
+        width: 100vw;
+      
+        font-size: 24px;
+        margin: 0 auto;
+        padding-top: 32px;
+        text-align: left;
+        list-style: none;
+        background-color: #ffffff;
+    }
+
+}
